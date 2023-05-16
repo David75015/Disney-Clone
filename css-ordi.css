@@ -1,0 +1,321 @@
+/* -------------FOND DU BODY------------------ */
+
+body {
+    background-color: #040714;
+}
+
+/* -----------HEADER------------------- */
+
+header {
+    position: fixed;
+}
+
+.li1 {
+    list-style: none;
+    width: 11%;
+    height: 50px;
+    background-color: black;
+    opacity: 80%;
+    text-align: center;
+    border-radius: 4px 4px 4px 4px;
+    margin-left: auto;
+    border-width: 1px;
+    border-style: solid;
+    border-color: white;
+    /* padding: 4px; */
+    position: absolute;
+    right: 50px;
+    position: fixed;
+}
+
+
+
+a {
+    color: white;
+    font-size: 140%;
+    font-family: 'Avenir', sans-serif;
+    position: relative;
+    top: 10px;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+
+.li1:hover {
+    background-color: white;
+    transition-duration: 0.3s;
+}
+
+.li1:hover a {
+    color: black;
+}
+
+
+.ul1 {
+    list-style: none;
+    /* Sert à enlever le point de début de la liste */
+    padding: 0px;
+    display: flex;
+    justify-content: flex-end;
+    /* position: fixed; */
+}
+
+
+form {
+    display: flex;
+    height: 50px;
+    width: 100%;
+    padding: 10px;
+
+}
+
+.inputform {
+    background-color: grey;
+    border: none;
+    width: 100%;
+    padding: 10px;
+
+}
+
+.boutton {
+    background-color: #6164C6;
+    color: white;
+    border: none;
+    width: 30%;
+}
+
+/* --------------MAIN----------------- */
+
+/* --------------Section 1------------ */
+
+
+h1 {
+    color: rgb(255, 255, 255);
+    font-size: 44px;
+    font-family: 'Avenir', sans-serif;
+}
+
+p {
+    color: #ADADAE;
+    font-family: 'Avenir', sans-serif;
+    font-size: 20px;
+}
+
+h3 {
+    color: rgb(255, 255, 255);
+    font-size: 22px;
+    font-family: 'Avenir', sans-serif;
+}
+
+.section1 {
+    background-image: url("../img/background-disney-plus.png");
+    background-size: cover;
+    min-height: 100vh;
+    /* ajuster la taille de l'image au conteneur */
+    background-position: 50%;
+    /* centrer l'image horizontalement et verticalement */
+    background-repeat: no-repeat;
+    /* empêcher la répétition de l'image   */
+    box-sizing: border-box;
+}
+
+.bloc1 {
+    position: absolute;
+    bottom: 110px;
+    left: 85px;
+}
+
+.logo {
+    background-image: url("../img/logo-disney-plus.png");
+    background-size: cover;
+    height: 98px;
+    width: 180px;
+}
+
+/*----------------Section 2----------------*/
+
+.section2 {
+    overflow: auto;
+    background-image: url("../img/andor.jpeg");
+    background-size: cover;
+    /* ajuster la taille de l'image au conteneur */
+    background-position: 50%;
+    /* centrer l'image horizontalement et verticalement */
+    background-repeat: no-repeat;
+    /* empêcher la répétition de l'image   */
+    min-height: 100vh;
+    box-sizing: border-box;
+}
+
+.bloc2 {
+    position: absolute;
+    top: 1000px;
+    left: 85px;
+}
+
+/*--------------------Section3--------------*/
+
+.section3 {
+    background-image: url("../img/logo-kenobi.jpeg");
+    background-size: cover;
+    /* ajuster la taille de l'image au conteneur */
+    background-position: top center;
+    /* centrer l'image horizontalement et verticalement */
+    background-repeat: no-repeat;
+    /* empêcher la répétition de l'image   */
+    min-height: 100vh;
+
+}
+
+.bloc3 {
+    position: absolute;
+    top: 1560px;
+    left: 430px;
+    text-align: center;
+}
+
+/*---------------Section 4-------------------*/
+
+
+
+.li2 {
+    text-align: center;
+    margin: -4px;
+    width: 86%;
+    min-width: 294px;
+}
+
+.ul2 {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+/*----------Section 5--------------*/
+
+
+.h2-style {
+    color: #f9f9f9;
+    font-size: 42px;
+    text-align: center;
+    font-family: 'Avenir', sans-serif;
+}
+
+
+.titre-section {
+    color: white;
+    padding: 24px;
+    margin: 15px;
+    cursor: pointer;
+    font-family: 'Avenir', sans-serif;
+    background-color: #13151D;
+    cursor: pointer;
+    text-align: inherit;
+    width: 85%;
+    align-items: center;
+    margin-left: 7%;
+    font-size: 20px;
+}
+
+.menu-contenu {
+    padding: 24px;
+    display: none;
+    position: relative;
+    left: 106px;
+    background-color: #13151D;
+    bottom: 30px;
+    width: 85%;
+}
+
+.element-menu.active .menu-contenu {
+    display: block;
+}
+
+
+.croix1 {
+    position: relative;
+    left: 130vh;
+    font-family: 'Avenir', sans-serif;
+    font-size: 33px;
+}
+
+.croix2 {
+    position: relative;
+    left: 120vh;
+    font-family: 'Avenir', sans-serif;
+    font-size: 33px;
+}
+
+.croix3 {
+    position: relative;
+    left: 111vh;
+    font-family: 'Avenir', sans-serif;
+    font-size: 33px;
+}
+
+.croix4 {
+    position: relative;
+    left: 91vh;
+    font-family: 'Avenir', sans-serif;
+    font-size: 33px;
+}
+
+.croix5 {
+    position: relative;
+    left: 88vh;
+    font-family: 'Avenir', sans-serif;
+    font-size: 33px;
+}
+
+
+.ul3 {
+    list-style-type: none;
+    grid-gap: 60px;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    left: 10%;
+    text-align: center;
+}
+
+.ul4 {
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    list-style-type: none;
+    margin: 0 auto 15px;
+    padding: 0;
+    color: silver;
+    font-family: 'Avenir', sans-serif;
+    grid-gap: 20px;
+    position: relative;
+    left: 30%;
+}
+
+option {
+    font-weight: normal;
+    display: block;
+    white-space: nowrap;
+    min-height: 1.2em;
+    padding: 0px 2px 1px;
+}
+
+
+footer {
+    align-items: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    max-width: 1024px;
+    padding: 26px 8px;
+    text-align: center;
+}
+
+.select1 {
+    opacity: 70;
+}
